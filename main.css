@@ -1,0 +1,15 @@
+.parent{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+background-color: lightgray;
+margin-left: 15%;
+margin-right: 15%; }
+.one {background: repeating-linear-gradient(rgb(76, 212, 128), blue);}
+.two{
+    margin-left: 5%;
+}
+.important {
+    position: sticky;
+    top: 5px;
+    bottom: 5px;
+}
